@@ -14,7 +14,7 @@ our_url = "https://andruxnet-random-famous-quotes.p.mashape.com/?cat="+category
 #sending POST request call
 result = unirest.post(our_url,
   headers={
-    "X-Mashape-Key": "xxx",
+    "X-Mashape-Key": "xxx", #replace xxx with your own key
     "Content-Type": "application/x-www-form-urlencoded",
     "Accept": "application/json"
   }
